@@ -3,7 +3,7 @@ public class SwitchCase {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int j = 3;
+		int j = 5;
 		
 		switch(j) {
 		
@@ -22,6 +22,9 @@ public class SwitchCase {
 			case 3:
 				System.out.println("Value is 3");
 				break;
+				
+			default:
+				System.out.println("No Value");
 		}
 
 	}
